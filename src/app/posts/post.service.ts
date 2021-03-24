@@ -2,7 +2,7 @@ import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { BehaviorSubject, Observable, of, Subject, throwError } from "rxjs";
 import { catchError, map, switchMap, tap } from "rxjs/operators";
-import { UserService } from "../users/user.service";
+import { UserService } from "../Users/user.service";
 
 import { Post } from "./post";
 

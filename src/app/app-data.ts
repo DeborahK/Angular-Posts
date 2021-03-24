@@ -3,8 +3,8 @@ import { PostCategory } from './post-categories/post-category';
 import { PostCategoryData } from './post-categories/post-category-data';
 import { Post } from './posts/post';
 import { PostData } from './posts/post-data';
-import { User } from './users/user';
-import { UserData } from './users/user-data';
+import { User } from './Users/user';
+import { UserData } from './Users/user-data';
 
 export class AppData implements InMemoryDbService {
 
